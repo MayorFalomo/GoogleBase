@@ -6,7 +6,7 @@ import Footer from "../Footer/Footer";
 import Mainbody from "../Mainbody/Mainbody";
 import Navbar from "../Navbar/Navbar";
 
-const Homepage = () => {
+const Homepage = ({ activity }) => {
   let navigate = useNavigate();
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const Homepage = () => {
   return (
     <div>
       <Navbar />
-      <Mainbody />
+      <Mainbody activity={activity} />
       <Index />
       <Footer />
     </div>
