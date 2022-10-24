@@ -14,9 +14,9 @@ const Mainbody = ({ activity }) => {
         <button onClick={handleFunctions}>
           Bored?? get a random activity{" "}
         </button>
-        {displayActivity ? <p> Random Activity: {activity.activity}</p> : " "}
+        {displayActivity ? <p> Random Activity: {activity.type}</p> : " "}
       </div>
-      {console.log(activity.activity)}
+      {console.log(activity.type)}
     </div>
   );
 };
