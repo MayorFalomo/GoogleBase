@@ -1,0 +1,50 @@
+.MainBodyContainer {
+  margin-top: 100px;
+  padding: 30px;
+}
+.MainBodyContainer .logoImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 400px;
+}
+.MainBodyContainer .BoredCard button {
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 100px;
+}
+.MainBodyContainer button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.MainBodyContainer .BoredCard p {
+  position: absolute;
+  top: 180px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.MainBodyContainer li {
+  font-family: "Spectral";
+}
+.MainBodyContainer div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  position: relative;
+}
+
+@media (max-width: 450px) {
+  .MainBodyContainer {
+    margin-top: 10px;
+  }
+  p {
+    position: absolute;
+    top: 150px;
+  }
+}/*# sourceMappingURL=Mainbody.css.map */
