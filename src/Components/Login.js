@@ -4,6 +4,7 @@ import { auth, provider } from "../Components/firebase-config";
 import { AppContext } from "./Helpers/Helpers";
 import { useNavigate } from "react-router";
 import { FcGoogle } from "react-icons/fc";
+import "./Login.css";
 
 const Login = () => {
   const { isAuth, setIsAuth } = useContext(AppContext);
