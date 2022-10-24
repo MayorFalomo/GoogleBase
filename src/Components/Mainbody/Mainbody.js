@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import { AppContext } from "../Helpers/Helpers";
 import "./Mainbody.css";
 
-const Mainbody = ({ activity }) => {
-  const { displayActivity, handleFunctions } = useContext(AppContext);
+const Mainbody = () => {
+  const { activity, displayActivity, handleFunctions } = useContext(AppContext);
 
   return (
     <div className="MainBodyContainer">
@@ -14,9 +14,8 @@ const Mainbody = ({ activity }) => {
         <button onClick={handleFunctions}>
           Bored?? get a random activity{" "}
         </button>
-        {displayActivity ? <p> Random Activity: {activity.type}</p> : " "}
+        {displayActivity ? <p> Random Activity: {activity.activity}</p> : " "}
       </div>
-      {console.log(activity.type)}
     </div>
   );
 };

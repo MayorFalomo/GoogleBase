@@ -7,7 +7,7 @@ import Login from "./Components/Login";
 import Homepage from "./Components/Homepage/Homepage";
 
 function App() {
-  const boredUrl = `http://www.boredapi.com/api/activity/`;
+  const boredUrl = `https://www.boredapi.com/api/activity/`;
 
   const [activity, setActivity] = useState({});
   const [displayActivity, setDisplayActivity] = useState(false);
