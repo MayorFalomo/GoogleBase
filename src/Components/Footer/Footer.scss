@@ -2,7 +2,9 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #f2f2f2;
+  // background-color: #f2f2f2;
+  background-color: #001219;
+  color: #fff;
   footer {
     border-top: 1px #dadce0 solid;
     display: flex;
@@ -22,9 +24,11 @@
     text-align: center;
     gap: 30px;
     flex-wrap: wrap;
+    color: #fff;
   }
   a {
-    color: black;
+    // color: black;
+    color: white;
     text-decoration: none;
   }
   a:hover {
@@ -33,12 +37,15 @@
   p {
     font-size: 20px;
     padding: 20px;
-    background-color: #f2f2f2;
+    background-color: #001219;
+    // background-color: #f2f2f2;
+    color: #fff;
     opacity: 0.8;
   }
   li {
     font-size: 18px;
     opacity: 0.75;
+    color: #fff;
   }
 }
 @media (max-width: 450px) {

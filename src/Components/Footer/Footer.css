@@ -2,7 +2,8 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #001219;
+  color: #fff;
 }
 .FooterContainer footer {
   border-top: 1px #dadce0 solid;
@@ -23,9 +24,10 @@
   text-align: center;
   gap: 30px;
   flex-wrap: wrap;
+  color: #fff;
 }
 .FooterContainer a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .FooterContainer a:hover {
@@ -34,12 +36,14 @@
 .FooterContainer p {
   font-size: 20px;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: #001219;
+  color: #fff;
   opacity: 0.8;
 }
 .FooterContainer li {
   font-size: 18px;
   opacity: 0.75;
+  color: #fff;
 }
 
 @media (max-width: 450px) {

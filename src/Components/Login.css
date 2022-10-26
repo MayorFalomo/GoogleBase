@@ -30,10 +30,13 @@
 .logins h2 {
   text-align: center;
 }
-.logins p {
+.logins .logins p {
   font-size: 18px;
   border-top: 1px #dadce0 solid;
   padding: 10px 5px;
   margin: auto;
   padding: 15px;
+}
+.logins span {
+  /* display: flex; */
 }/*# sourceMappingURL=Login.css.map */

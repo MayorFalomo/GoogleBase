@@ -31,12 +31,19 @@
   h2 {
     text-align: center;
   }
-  p {
+  .logins p {
     font-size: 18px;
     border-top: 1px #dadce0 solid;
     padding: 10px 5px;
     margin: auto;
     padding: 15px;
   }
- 
+  span {
+    /* display: flex; */
+    // border: 2px red solid;
+  }
+}
+
+@media (max-width:450px) {
+    
 }
