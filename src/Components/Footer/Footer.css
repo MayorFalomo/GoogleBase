@@ -2,8 +2,8 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #001219;
-  color: #fff;
+  background-color: #f2f2f2;
+  color: #000;
 }
 .FooterContainer footer {
   border-top: 1px #dadce0 solid;
@@ -27,7 +27,7 @@
   color: #fff;
 }
 .FooterContainer a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .FooterContainer a:hover {
@@ -36,8 +36,8 @@
 .FooterContainer p {
   font-size: 20px;
   padding: 20px;
-  background-color: #001219;
-  color: #fff;
+  background-color: #f2f2f2;
+  color: #000;
   opacity: 0.8;
 }
 .FooterContainer li {

@@ -8,8 +8,9 @@
 .App{
     overflow-x: hidden;
     height: 100vh;
-    background-color: #001219;
-    color: #fff;
+    /* background-color: #001219; */
+    background-color: #fff;
+    color: #000;
     font-size: 18px;
     position: relative;
 }
